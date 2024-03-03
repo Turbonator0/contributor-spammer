@@ -8,4 +8,6 @@ for i in range(int(sys.argv[1])):
     with open("secret", "w") as wfile:
       _hash = hashlib.sha1(content.encode("UTF-8")).hexdigest()
       wfile.write(_hash)
-      os.system(f"git add secret && git commit -m {_hash}")
+    os.system(f"git add secret && git commit -m {_hash}")
+# Automagically push to Github
+os.system("git push origin master")
