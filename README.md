@@ -1,5 +1,5 @@
 # Setup
-Set your origin to your repository with http://USER:TOKEN@github.com/your/repository
+Set your origin to your repository with the structure of http://USER:TOKEN@github.com/your/repository
 
 # Use
 
